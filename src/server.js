@@ -36,7 +36,6 @@ const stopServer = () => {
   logger.info("The server has been closed")
 }
 
-
 module.exports = {
   startServer,
   stopServer,

@@ -75,9 +75,7 @@ describe('testing patch function', () => {
           await patch(req,res)
           console.log(res.json.mock.calls[0][0])
         
-          return expect(res.json.mock.calls[0][0].error.message).toEqual("Password update failed. Please try again")
-
-        
+          return expect(res.json.mock.calls[0][0].error.message).toEqual("Password update failed. Please try again")        
     
         })
 

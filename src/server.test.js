@@ -90,7 +90,6 @@ describe('Testing the server', () => {
 
     await startServer()
     stopServer()
-
     expect(server.close.mock.calls.length).toEqual(1)
   })
 })
